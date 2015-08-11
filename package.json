@@ -1,5 +1,5 @@
 {
-  "name": "inject-html",
+  "name": "inject-markup",
   "version": "1.0.0",
   "description": "Inject HTML into a web page.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rafaelrinaldi/inject-html.git"
+    "url": "git+https://github.com/rafaelrinaldi/inject-markup.git"
   },
   "keywords": [
     "inject",
@@ -22,9 +22,9 @@
   "author": "Rafael Rinaldi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rafaelrinaldi/inject-html/issues"
+    "url": "https://github.com/rafaelrinaldi/inject-markup/issues"
   },
-  "homepage": "https://github.com/rafaelrinaldi/inject-html#readme",
+  "homepage": "https://github.com/rafaelrinaldi/inject-markup#readme",
   "devDependencies": {
     "browserify": "^11.0.1",
     "tape": "^4.0.3",

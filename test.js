@@ -1,6 +1,6 @@
 'use strict';
 
-var injectHTML = require('./');
+var injectMarkup = require('./');
 var test = require('tape');
 var fixture = '<button class="c-button">Click me!</button>';
 
@@ -16,7 +16,7 @@ test('inject html', function(t) {
   t.equal(hasElement('.c-button'), false, 'DOM should not contain fixture before calling `innerHTML()`');
 
   now = +new Date();
-  container = injectHTML(fixture);
+  container = injectMarkup(fixture);
 
   t.equal(hasElement('.c-button'), true, 'DOM should contain fixture after calling `innerHTML()`');
   t.equal(container.innerHTML, fixture, 'Container markup should match fixture chunk');

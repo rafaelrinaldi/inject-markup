@@ -1,7 +1,7 @@
 (function(exports) {
   'use strict';
 
-  function injectHTML(chunk, options) {
+  function injectMarkup(chunk, options) {
     options = options || {};
 
     var root = options.root || document;
@@ -17,11 +17,11 @@
   }
 
   if(typeof define === 'function' && define.amd) {
-    define(function() { return injectHTML; });
+    define(function() { return injectMarkup; });
   } else if(typeof module !== 'undefined' && module.exports) {
-    module.exports = injectHTML;
+    module.exports = injectMarkup;
   } else {
-    exports.injectHTML = injectHTML;
+    exports.injectMarkup = injectMarkup;
   }
 
 })(this);
