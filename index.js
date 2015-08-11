@@ -13,7 +13,7 @@
     fixture.setAttribute('id', prefix + uid);
     fixture.innerHTML = chunk;
 
-    container.appendChild(fixture);
+    return container.appendChild(fixture);
   }
 
   if(typeof define === 'function' && define.amd) {
