@@ -1,4 +1,4 @@
-# inject-html [![Build Status](https://travis-ci.org/rafaelrinaldi/inject-html.svg?branch=master)](https://travis-ci.org/rafaelrinaldi/inject-html)
+# inject-markup [![Build Status](https://travis-ci.org/rafaelrinaldi/inject-markup.svg?branch=master)](https://travis-ci.org/rafaelrinaldi/inject-markup)
 
 > Inject HTML into a web page.
 
@@ -7,13 +7,13 @@
 Via [npm](http://npmjs.com):
 
 ```sh
-$ npm install inject-html --save
+$ npm install inject-markup --save
 ```
 
 Via [Bower](http://bower.io):
 
 ```sh
-$ bower install inject-html --save
+$ bower install inject-markup --save
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ let fixture = `
 </ul>
 `;
 
-injectHTML(fixture);
+injectMarkup(fixture);
 
 console.log(document.body.innerHTML);
 
@@ -38,7 +38,9 @@ console.log(document.body.innerHTML);
 
 ### API
 
-### `injectHTML(chunk, [options])`
+### `injectMarkup(chunk, [options])`
+
+Returns the newly created element.
 
 #### `chunk`
 
