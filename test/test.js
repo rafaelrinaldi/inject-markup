@@ -1,8 +1,8 @@
 'use strict';
 
-var injectHTML = require('./');
+var injectHTML = require('../');
 var test = require('tape');
-var hasElement = require('./test/util/hasElement');
+var hasElement = require('./util/hasElement');
 var fixture = '<button class="c-button">Click me!</button>';
 
 
