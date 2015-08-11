@@ -1,0 +1,28 @@
+{
+  "name": "inject-html",
+  "version": "1.0.0",
+  "description": "Inject HTML into a web page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "browserify test.js | tape-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelrinaldi/inject-html.git"
+  },
+  "keywords": [
+    "inject",
+    "html",
+    "markup",
+    "fixture",
+    "dom",
+    "browser",
+    "page"
+  ],
+  "author": "Rafael Rinaldi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelrinaldi/inject-html/issues"
+  },
+  "homepage": "https://github.com/rafaelrinaldi/inject-html#readme"
+}
