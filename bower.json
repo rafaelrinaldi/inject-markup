@@ -1,0 +1,24 @@
+{
+  "name": "inject-html",
+  "main": "index.js",
+  "version": "1.0.0",
+  "authors": [
+    "Rafael Rinaldi <rafael@rinaldi.io>"
+  ],
+  "description": "Inject HTML into a web page.",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "inject",
+    "html",
+    "markup",
+    "fixture",
+    "dom",
+    "browser",
+    "page"
+  ],
+  "license": "MIT"
+}
