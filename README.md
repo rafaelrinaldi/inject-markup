@@ -64,7 +64,7 @@ Default: `document.body`
 
 Container in which the fixture should be added to.
 
-##### `fixture`
+##### `prefix`
 
 Type: `string`  
 Default: `fixture-`  
