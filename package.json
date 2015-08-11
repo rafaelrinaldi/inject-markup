@@ -4,7 +4,7 @@
   "description": "Inject HTML into a web page.",
   "main": "index.js",
   "scripts": {
-    "test": "browserify test.js | tape-run"
+    "test": "browserify test/test.js | tape-run"
   },
   "repository": {
     "type": "git",
